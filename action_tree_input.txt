@@ -1,0 +1,16 @@
+x shoot y :x hold 0,x shoot 10,x unhold 20, y fall 15
+x Clapping :x Clapping 0
+x Jumping :x Jumping 0
+x Sit_To_Stand:x Sit_To_Stand 0
+x Walking:x Walking 0
+x Stand_To_Sit: x Stand_To_Sit 0
+x Sit_To_Stand: x Sit_To_Stand 0
+x Talking y : x Talking 35,y Right_Turn 0
+x Lying_Down: x Lying_Down 0
+x Waving : x Waving 0
+x Punch y : x Punch 0, y Head_Hit 32
+x Running : x Running 0
+x Crying: x Crying 0
+x Kick: x Soccer_Pass 0
+x Dancing: x Dancing 0
+x sleep: x Lying_Down 0

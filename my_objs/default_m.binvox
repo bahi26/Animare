@@ -1,0 +1,7 @@
+#binvox 1
+dim 4 4 4
+translate -2 -2 -2
+scale 4
+height 0.0 0.0 4 4 4 2 2 0 90 0 0
+data
+@

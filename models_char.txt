@@ -1,0 +1,12 @@
+boy 0 none 2 1
+girl 0 black 1 2
+woman 0 none 1 3
+kitchen none 1 4
+chair white 1 5
+chair white 1 6
+chair red 1 7
+table brown 0 8
+table black 2 9
+plate white 1 10
+plate white 1 11
+food none 1 12

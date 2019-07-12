@@ -1,0 +1,7 @@
+in girl 2 kitchen 4
+in boy 1 kitchen 4
+on plate 10 table 8
+on plate 11 table 8
+on food 12 plate 10
+front chair 5 table 8
+front chair 7 chair 6

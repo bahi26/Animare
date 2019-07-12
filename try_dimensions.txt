@@ -1,0 +1,39 @@
+
+import bpy
+import os
+from math import radians
+import math
+import numpy as np
+context = bpy.context
+scene = bpy.data.scenes.new("Scene")
+context.screen.scene = scene
+bpy.ops.scene.new(type='LINK_OBJECTS')
+context.scene.name = 'new_scene'
+
+path = '~\\PycharmProjects\\StartGP\\binvox_files\\binvox_files\\room_m.obj'
+# make a new scene with cam and lights linked
+bpy.ops.import_scene.obj(filepath=path)
+obj_object = bpy.context.selected_objects[0]
+for ob in bpy.context.scene.objects:
+    if ob.type == 'MESH':
+        ob.select = True
+        bpy.context.scene.objects.active = ob
+    else:
+        ob.select = False
+bpy.ops.object.join()
+obj_object.location= (19.163039215686272, 24.969556410256413, 14.4709)
+print(obj_object.dimensions)
+
+
+path = '~\\PycharmProjects\\StartGP\\binvox_files\\binvox_files\\table_m.obj'
+# make a new scene with cam and lights linked
+bpy.ops.import_scene.obj(filepath=path)
+obj_object = bpy.context.selected_objects[0]
+obj_object.location= (16.480213725490195, 16.427339743589744, 3.501025)
+print(obj_object.dimensions)
+
+
+
+
+
+
